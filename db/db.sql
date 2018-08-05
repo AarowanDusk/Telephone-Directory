@@ -1,5 +1,5 @@
-CREATE USER 'ongc'@'localhost' IDENTIFIED BY 'password'; /* for mysql verson 7 or less */
-CREATE USER ongc@localhost IDENTIFIED WITH mysql_native_password BY 'password';  /* for mysql verson 8 */
+CREATE USER 'any'@'localhost' IDENTIFIED BY 'password'; /* for mysql verson 7 or less */
+CREATE USER any@localhost IDENTIFIED WITH mysql_native_password BY 'password';  /* for mysql verson 8 */
 
 CREATE DATABASE telecom;
 
